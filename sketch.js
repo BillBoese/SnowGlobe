@@ -63,7 +63,7 @@ function draw() {
     particles[i].createParticle();
     particles[i].moveParticle();
   }
-  console.log('capturing frame');
+ // console.log('capturing frame');
   capturer.capture(document.getElementById('defaultCanvas0'));
   //fill('rgba(240,240,240,0.7)');
   //circle(412,590,530)
